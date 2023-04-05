@@ -34,7 +34,6 @@ const SliderComponent = ({ defaultValue, min, max, step, onChange, value, label,
           {max}
         </Typography>
       </Stack>
-      <Typography>dfadssdf</Typography>
     </Stack>
   );
 };

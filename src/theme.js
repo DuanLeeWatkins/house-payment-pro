@@ -1,9 +1,14 @@
 import { createTheme } from "@mui/material/styles";
-
-export const theme = createTheme({
+//Styles for the entire project
+const theme = createTheme({
   palette: {
     mode: "dark",
   },
+  typography: {
+    h1: {
+      fontSize: ""
+    }
+  }
 });
 
 export default theme;
